@@ -1,3 +1,5 @@
+const config = require("../config");
+
 const getInfo = (req, res) => {
   res.status(200).json({
     name: config.appName,
